@@ -190,10 +190,3 @@ export default function Mainpage(){
     )
 }
 
-/*
-bhavanapillai100
-chNOZkJlFMhHYp76
-
-
-CONNECTION STRING:mongosh "mongodb+srv://portfolio.88ym1.mongodb.net/" --apiVersion 1 --username bhavanapillai100 --password chNOZkJlFMhHYp76
-*/ 
