@@ -31,3 +31,41 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes moveRightToLeft {
+  from {
+      transform: translateX(100%);
+  } 
+  to {
+      transform: translateX(0);
+  }
+}
+
+.moving-div {
+  animation: moveRightToLeft 2s forwards; /* Adjust duration as needed */
+}
+
+.floating {  
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 50px); }
+  100%   { transform: translate(0, -0px); }    
+}
+
+.card1{
+  text-align: center;
+  border: 2px white solid;
+  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
